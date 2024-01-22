@@ -1,0 +1,92 @@
+html {
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: hsl(0, 0%, 7%);
+    font-size: 23px;
+}
+
+#date-published {
+    margin: 0;
+}
+
+#course-learning {
+    background-color: hsl(47, 88%, 63%);
+    padding: 7px 14px;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+#illustration-article {
+    width: 100%;
+    align-content: center;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.card {
+    padding: 0;
+    width: 340px;
+    font-size: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 20px 25px 20px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+#description {
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.creator {
+    display: flex;
+}
+
+#creator-name {
+    margin-left: 10px;
+    font-weight: 800;
+    line-height: 4px;
+    font-size: 14px
+}
+
+#creator-icon {
+    width: 34px;
+    height: 34px;
+    
+    
+}
+
+a {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
+
+/* hover animation start */
+
+.card:hover {
+    box-shadow: 15px 15px hsl(0, 0%, 7%);
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+a:hover {
+    color: hsl(47, 88%, 63%);
+}
